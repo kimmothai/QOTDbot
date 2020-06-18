@@ -4,6 +4,8 @@ import config
 import quote
 from dotenv import load_dotenv
 
+# A Discord bot that returns a random inspirational quote or an Games Done Quick style donation message.
+
 # Load the file that contains Discord-related credentials
 load_dotenv()   
 TOKEN = os.getenv("DISCORD_TOKEN")
